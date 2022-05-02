@@ -39,7 +39,7 @@ html{
     font-family: var(--font-dm-sans);
 }
 
-/*SECCIÓN HEADER*/
+/* 1.- SECCIÓN UNO HEADER */
 
 .header{
     width: 100%;
@@ -114,7 +114,7 @@ html{
     bottom: -2.6rem;
 }
 
-/*SECCIÓN EXCHANGE*/
+/* 2.- SECCIÓN DOS EXCHANGE */
 
 /*EXCHANGE IMAGE*/
 
@@ -290,7 +290,7 @@ html{
     font-size: 1.2rem;
 }
 
-/*EXCHANGE ARTICLES*/
+/* 3.- SECCION TRES EXCHANGE ARTICLES */
 
 .cards-container{
     background-color: var(--warm-black);
@@ -303,7 +303,7 @@ html{
     position: relative;
 }
 
-/*EXCHANGE IMAGE PRINCIPAL*/
+/* EXCHANGE IMAGE PRINCIPAL */
 
 .cards-container__image_container{
     position: absolute;
@@ -363,7 +363,7 @@ html{
     color: var(--grey-middel-dos);
 }
 
-/*IMAGE SECTION*/
+/* 4.- SECCION CUATRO IMAGE SECTION*/
 
 /*IMAGE*/
 
@@ -397,7 +397,7 @@ html{
     font-weight: bold;
 }
 
-/*SECCION PLANES*/
+/* 5.- SECCION CINCO PLANES*/
 
 .planes-container{
     background-color: var(--off-white);
@@ -543,8 +543,6 @@ html{
     margin-left: 1rem;
 }
 
-
-
 /*FOTTER*/
 
 .footer-container{
@@ -574,7 +572,6 @@ html{
     margin-bottom: 0rem;
 }
 
-
 .footer-container__enlace{
     text-decoration: none;
     font-size: 1.4rem;
@@ -598,44 +595,4 @@ html{
 .footer-container__image{
     width: 100%;
     height: 100%;
-}
-
-
-/*MEDIA1UERIES*/
-
-@media(min-width: 1024px){
-
-    .planes-container__box-planes-container{
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    .planes-container__box-planes{
-        margin: 1rem 0.5rem;
-    }
-
-}
-
-@media(min-width: 768px){
-
-    .cards-container__card {
-        max-width: 35rem;
-    }
-
-}
-
-@media(min-width: 1200px){
-
-    .cards-container__card {
-        max-width: 50rem;
-    }
-
-}
-
-@media(min-width: 1600px){
-
-    .cards-container__card {
-        max-width: 60rem;
-    }
-
 }

@@ -1,0 +1,19 @@
+/* MEDIA QUERIES */
+
+/* DESKTOP */
+
+@media(min-width: 1200px){
+
+    .cards-container__card {
+        max-width: 50rem;
+    }
+
+}
+
+@media(min-width: 1600px){
+
+    .cards-container__card {
+        max-width: 60rem;
+    }
+
+}
