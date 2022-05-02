@@ -4,6 +4,8 @@
 
 @media(min-width: 768px){
 
+/* 3.- SECCION TRES EXCHANGE ARTICLES */
+
     .cards-container__card {
         max-width: 35rem;
     }
@@ -11,6 +13,8 @@
 }
 
 @media(min-width: 1024px){
+
+/* 5.- SECCION CINCO PLANES*/
 
     .planes-container__box-planes-container{
         justify-content: space-evenly;
